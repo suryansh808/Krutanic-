@@ -1,6 +1,5 @@
 
-import { Routes, Route } from 'react-router-dom';
-import { HashRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Header from './Components/Header';
 import HomePage from './page/landing';
 import Signup from './page/Signup';
@@ -42,7 +41,7 @@ const App = () => {
   return (
     <div>
       <SmoothScroll/>
-      <HashRouter> 
+      <BrowserRouter>
       <div>
         <ScrollToTop/>
         <Header />
@@ -70,7 +69,7 @@ const App = () => {
         </Routes>
         <Footer/>
       </div>
-    </HashRouter>
+      </BrowserRouter>
     </div>
  
   );

@@ -50,7 +50,7 @@ const Career = () => {
   };
   
 
-  const [openJobIndex, setOpenJobIndex] = useState(null); // Track which job is open
+  const [openJobIndex, setOpenJobIndex] = useState(null); 
 
   const jobList = [
     {
@@ -266,41 +266,7 @@ const Career = () => {
         </div>
       </section>
 
-      {/* Life at Krutanic Section */}
-      {/* <section className="py-[60px] px-[10px] z-10 relative">
-       <div className="career">
-       <h1 data-aos="fade-up"   className=" font-bold text-center mb-12 text-orange-700">
-          | Life at Krutanic
-        </h1>
-        <div data-aos="fade-up"   className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-3 gap-4 lg:px-10">
-          <div className="relative overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
-            <img src={gallery1} alt="" className="object-cover h-96" />
-          </div>
-
-          <div className="relative overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
-            <img src={gallery2} alt="" className="object-cover h-96" />
-          </div>
-
-          <div className="relative overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
-            <img src={gallery3} alt="" className="object-cover h-96" />
-          </div>
-
-          <div className="relative overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
-            <img src={gallery4} alt="" className="object-cover h-96" />
-          </div>
-
-          <div className="relative overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
-            <img src={gallery5} alt="" className="object-cover h-96" />
-          </div>
-
-          <div className="relative overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
-            <img src={gallery6} alt="" className="object-cover h-96" />
-          </div>
-        </div>
-       </div>
-      </section> */}
-
-
+     
       {/* Job Section */}
       <section ref={jobSectionRef} id="job-openings" className="z-10 relative bg-[#080810ce]  px-[10px]  py-[60px]">
         <div className="container mx-auto">
@@ -330,7 +296,7 @@ const Career = () => {
                     {job.description}
                   </p>
                   <button
-                    onClick={() => openDialog("UX Designer")}
+                    onClick={() => openDialog()}
                     className="px-4 py-2 mt-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
                   >
                     Apply Now
@@ -346,7 +312,7 @@ const Career = () => {
           <div className="bg-white text-black rounded-3xl w-full max-w-md p-6 relative">
             <span  onClick={closeDialog} className=" absolute top-0 border right-0 bg-black px-3 py-1 text-white rounded-full cursor-pointer">X</span>
             <h3 className="text-3xl font-bold mb-4 mt-2 text-center">
-              Apply for {selectedJob}
+              Apply Now
             </h3>
             <form>
               <div className="mb-4">
@@ -360,7 +326,6 @@ const Career = () => {
                   type="text"
                   id="name"
                   className="w-full px-4 py-2 border rounded bg-gray-200"
-                  // placeholder="Enter your name"
                 />
               </div>
               <div className="mb-4">
@@ -374,7 +339,6 @@ const Career = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-2 border rounded bg-gray-200"
-                  // placeholder="Enter your email"
                 />
               </div>
               <div className="mb-4">

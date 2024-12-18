@@ -201,44 +201,36 @@ const AboutUs = () => {
             <img src={gallery2} alt="" className="object-cover w-full h-full" />
           </div>
          
-          <div className="relative overflow-hidden rounded-lg flex items-center justify-center col-span-2">
+          {/* <div className="relative overflow-hidden rounded-lg flex items-center justify-center col-span-2">
             <img src={gallery3} alt="" className="object-cover w-full h-full" />
-          </div>
-
-        
-          <div className="relative overflow-hidden rounded-lg flex items-center justify-center">
-            <img src={gallery8} alt="" className="object-cover w-full h-full" />
-          </div>
-          <div className="relative overflow-hidden rounded-lg flex items-center justify-center col-span-2">
+          </div> */}
+<div className="relative overflow-hidden rounded-lg flex items-center justify-center col-span-2">
             <img src={gallery5} alt="" className="object-cover w-full h-full" />
-          </div>
-
-         
-          <div className="relative overflow-hidden rounded-lg flex items-center justify-center">
-            <img src={gallery9} alt="" className="object-cover w-full h-full" />
           </div>
           <div className="relative overflow-hidden rounded-lg flex items-center justify-center col-span-2">
             <img src={gallery6} alt="" className="object-cover w-full h-full" />
           </div>
+          <div className="relative overflow-hidden rounded-lg flex items-center justify-center">
+            <img src={gallery8} alt="" className="object-cover w-full h-full" />
+          </div>
+          
+
+         
+          {/* <div className="relative overflow-hidden rounded-lg flex items-center justify-center">
+            <img src={gallery9} alt="" className="object-cover w-full h-full" />
+          </div> */}
+          
         
-          <div className="relative overflow-hidden rounded-lg flex items-center justify-center">
+          {/* <div className="relative overflow-hidden rounded-lg flex items-center justify-center">
             <img src={gallery12} alt="" className="object-fill w-full h-full" />
-          </div>
-          <div className="relative overflow-hidden rounded-lg flex items-center justify-center">
+          </div> */}
+          {/* <div className="relative overflow-hidden rounded-lg flex items-center justify-center">
             <img src={gallery15} alt="" className="object-cover w-full h-full" />
-          </div>
+          </div> */}
+          
           <div className="relative overflow-hidden rounded-lg flex items-center justify-center">
             <img src={gallery16} alt="" className="object-cover w-full h-full " />
           </div>
-
-
-        
-          <div className="relative overflow-hidden rounded-lg flex items-center justify-center">
-            <img src={gallery14} alt="" className="object-cover w-full h-full" />
-          </div>
-
-         
-
           <div className="relative overflow-hidden rounded-lg flex items-center justify-center col-span-2">
             <img src={gallery7} alt="" className="object-cover w-full h-full" />
           </div>
@@ -248,6 +240,15 @@ const AboutUs = () => {
             <img src={gallery10} alt="" className="object-cover w-full h-full" />
           </div>
           <div className="relative overflow-hidden rounded-lg flex items-center justify-center">
+            <img src={gallery14} alt="" className="object-cover w-full h-full" />
+          </div>
+
+         
+
+         
+         
+         
+          <div className="relative overflow-hidden rounded-lg flex items-center justify-center lg:col-span-3">
             <img src={gallery11} alt="" className="object-cover w-full h-full " />
           </div>
         

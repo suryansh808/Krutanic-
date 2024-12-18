@@ -101,7 +101,7 @@ const TalentHunt = () => {
       <section className="py-16 px-4">
         <div className="container mx-auto">
           <h1 data-aos="fade-up" className="font-bold mb-8 text-center gradient-text">
-            About the Talent Hunt
+          | About the Talent Hunt
           </h1>
           <p data-aos="fade-up" className="text-lg text-center max-w-3xl mx-auto">
             Our annual Talent Hunt is designed to discover and nurture the
@@ -115,7 +115,7 @@ const TalentHunt = () => {
       <section className="py-16 px-4">
         <div className="container mx-auto">
           <h1 data-aos="fade-up" className="font-bold mb-12 text-center gradient-text">
-            Categories
+           | Categories
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
             {
@@ -136,75 +136,6 @@ const TalentHunt = () => {
       </section>
        <hr className=" opacity-10"/>
        
-
-
-      {/* <section className="py-16 px-4 text-center ">
-        <div className="container">
-        <h1 data-aos="fade-up" className="font-semibold gradient-text">| Leaderboard</h1>
-        <p data-aos="fade-up" className="my-4 text-lg">
-          Check out the top scorers in each category!
-        </p>
-        <div className="overflow-hidden leader">
-          <div data-aos="fade-up" className="flex gap-3 px-10 leaderboard">
-            <div className="p-6 w-full md:w-1/3 border rounded-lg shadow-lg">
-              <h3 className="font-semibold text-xl">1st Place: Alice Smith</h3>
-              <p>Category: Coding</p>
-            </div>
-            <div className="p-6 w-full md:w-1/3 border rounded-lg shadow-lg">
-              <h3 className="font-semibold text-xl">2nd Place: Bob Johnson</h3>
-              <p>Category: Design</p>
-            </div>
-            <div className="p-6 w-full md:w-1/3 border rounded-lg shadow-lg">
-              <h3 className="font-semibold text-xl">
-                3rd Place: Charlie Brown
-              </h3>
-              <p>Category: Writing</p>
-            </div>
-            <div className="p-6 w-full md:w-1/3 border rounded-lg shadow-lg">
-              <h3 className="font-semibold text-xl">1st Place: Alice Smith</h3>
-              <p>Category: Coding</p>
-            </div>
-            <div className="p-6 w-full md:w-1/3 border rounded-lg shadow-lg">
-              <h3 className="font-semibold text-xl">2nd Place: Bob Johnson</h3>
-              <p>Category: Design</p>
-            </div>
-            <div className="p-6 w-full md:w-1/3 border rounded-lg shadow-lg">
-              <h3 className="font-semibold text-xl">
-                3rd Place: Charlie Brown
-              </h3>
-              <p>Category: Writing</p>
-            </div>
-            <div className="p-6 w-full md:w-1/3 border rounded-lg shadow-lg">
-              <h3 className="font-semibold text-xl">1st Place: Alice Smith</h3>
-              <p>Category: Coding</p>
-            </div>
-            <div className="p-6 w-full md:w-1/3 border rounded-lg shadow-lg">
-              <h3 className="font-semibold text-xl">2nd Place: Bob Johnson</h3>
-              <p>Category: Design</p>
-            </div>
-            <div className="p-6 w-full md:w-1/3 border rounded-lg shadow-lg">
-              <h3 className="font-semibold text-xl">
-                3rd Place: Charlie Brown
-              </h3>
-              <p>Category: Writing</p>
-            </div>
-            <div className="p-6 w-full md:w-1/3 border rounded-lg shadow-lg">
-              <h3 className="font-semibold text-xl">
-                3rd Place: Charlie Brown
-              </h3>
-              <p>Category: Writing</p>
-            </div>
-            <div className="p-6 w-full md:w-1/3 border rounded-lg shadow-lg">
-              <h3 className="font-semibold text-xl">
-                3rd Place: Charlie Brown
-              </h3>
-              <p>Category: Writing</p>
-            </div>
-          </div>
-        </div>
-        </div>
-      </section> */}
-       <hr className=" opacity-10"/>
 
       <section className="py-16 px-4">
         <div className="container mx-auto">
@@ -241,7 +172,7 @@ const TalentHunt = () => {
                 type="text"
                 id="name"
                 name="name"
-                placeholder="Full Name."
+                placeholder="Full Name"
                 className="w-full p-3 mt-2  text-black placeholder:text-black border-b  rounded-lg focus:outline-none "
                 required
               />
@@ -252,7 +183,7 @@ const TalentHunt = () => {
                 type="email"
                 id="email"
                 name="email"
-                placeholder="Email id."
+                placeholder="Email id"
                 className="w-full p-3 mt-2  text-black placeholder:text-black border-b  rounded-lg focus:outline-none "
                 required
               />
@@ -262,7 +193,7 @@ const TalentHunt = () => {
                 type="text"
                 id="collegename"
                 name="collegename"
-                placeholder="College Name."
+                placeholder="College Name"
                 className="w-full p-3 mt-2  text-black placeholder:text-black border-b  rounded-lg focus:outline-none "
                 required
               />
@@ -275,7 +206,7 @@ const TalentHunt = () => {
                 className="w-full p-3 mt-2  text-black placeholder:text-black border-b  rounded-lg focus:outline-none "
                 required
               >
-                <option value="">Select a category.</option>
+                <option value="">Select a category</option>
                 <option value="MERN">MERN Mastermind Challenge</option>
                 <option value="UX/UI Design">UX/UI Design Excellence</option>
                 <option value="FULL STACK">Full-Stack Innovators Quest</option>
@@ -298,7 +229,7 @@ const TalentHunt = () => {
 
         <div className="text-center w-full sm:w-1/2 px-6 sm:px-20 py-10 sm:py-40">
           <h2 data-aos="fade-up" className="text-2xl sm:text-3xl font-semibold text-black gradient-text">
-            Follow Us
+           | Follow Us
           </h2>
           <p data-aos="fade-up" className="mt-4 text-lg text-black">
             Stay updated with the latest news and announcements on our social
