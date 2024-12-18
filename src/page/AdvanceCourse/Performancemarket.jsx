@@ -389,7 +389,7 @@ const Performancemarket = () => {
                     {" "}
                     Available Cohort{" "}
                   </p>
-                  <p className="mt-2 text-md"> 25/60 </p>
+                  <p className="mt-2 text-md"> 05/60 </p>
                 </div>
                 <div
                   data-aos="fade-up"

@@ -385,7 +385,7 @@ const Investmentbanking = () => {
                     {" "}
                     Available Cohort{" "}
                   </p>
-                  <p className="mt-2 text-md"> 21/60 </p>
+                  <p className="mt-2 text-md"> 06/60 </p>
                 </div>
 
                 <div

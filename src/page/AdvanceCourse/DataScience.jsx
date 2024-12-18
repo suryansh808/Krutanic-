@@ -389,7 +389,7 @@ const DataScience = () => {
                   {" "}
                   Available Cohort{" "}
                 </p>
-                <p className="mt-2 text-md"> 11/60 </p>
+                <p className="mt-2 text-md"> 2/60 </p>
               </div>
 
               <div

@@ -389,7 +389,7 @@ const MernStack = () => {
                     {" "}
                     Available Cohort{" "}
                   </p>
-                  <p className="mt-2 text-md"> 16/60 </p>
+                  <p className="mt-2 text-md"> 05/60 </p>
                 </div>
 
                 <div

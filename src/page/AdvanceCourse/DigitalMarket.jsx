@@ -386,7 +386,7 @@ const DigitalMarket = () => {
                     {" "}
                     Available Cohort{" "}
                   </p>
-                  <p className="mt-2 text-md"> 18/60 </p>
+                  <p className="mt-2 text-md"> 07/60 </p>
                 </div>
 
                 <div

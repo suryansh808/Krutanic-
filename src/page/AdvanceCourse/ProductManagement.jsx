@@ -383,7 +383,7 @@ const ProductManagement = () => {
                     {" "}
                     Available Cohort{" "}
                   </p>
-                  <p className="mt-2 text-md"> 15/60 </p>
+                  <p className="mt-2 text-md"> 02/60 </p>
                 </div>
 
                 <div
@@ -703,7 +703,7 @@ const ProductManagement = () => {
               className="text-[#f15b29] text-center  font-bold mb-8"
             >
               | Career Opportunities in{" "}
-              <span className="text-white font-bold">Data Science</span>
+              <span className="text-white font-bold">Product Management</span>
             </h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {jobRoles.map((role, index) => (
