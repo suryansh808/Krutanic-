@@ -38,7 +38,7 @@ const Footer = () => {
           <a href="mailto:info@krutanic.org" target='blank'  > <i class="fa fa-envelope text-red-600"></i> <br /> Mail us <br /> info@krutanic.org</a>
           <a href="tel:+917022812878" target='blank'  > <i class="fa fa-phone text-blue-600"></i><br /> Call us <br /> +91-7022812878</a>
           <a href="https://wa.me/7022812878" target='blank'  > <i class="fa fa-whatsapp text-green-600"> </i><br /> WhatsApp us <br /> +91-7022812878</a>
-          <a href="https://maps.app.goo.gl/QngUSd16wdRhk71H8" target='blank'  > <i class="fa fa-map-marker text-red-500"> </i><br /> Find us <br /> Bengaluru, Karnataka </a>
+          <a> <i class="fa fa-map-marker text-red-500"> </i><br /> Find us <br /> Bengaluru, Karnataka </a>
         </div>
 
         <div className='footerlink'>

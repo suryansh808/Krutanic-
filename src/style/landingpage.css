@@ -360,6 +360,9 @@
             h2 {
               font-size: 18px;
             }
+            p{
+              margin-bottom: 3px;
+            }
 
             span {
               color: #f15b29;
@@ -369,7 +372,7 @@
           .btn {
             font-weight: 600;
             color: #f15b29;
-            margin-top: 10px;
+            margin-top: 5px;
           }
         }
       }
@@ -683,7 +686,7 @@ h2{
       justify-content: center;
 
       img {
-        max-height: 500px;
+        max-height: 700px;
       }
     }
   }
