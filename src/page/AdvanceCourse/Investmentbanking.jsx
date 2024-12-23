@@ -867,7 +867,7 @@ const Investmentbanking = () => {
               isVisible ? "translate-y-0" : "translate-y-full"
             }`}
           >
-            <p className="text-lg font-semibold text-black">Program fees 65,000/-  + GST </p>
+            <p className="text-lg font-semibold text-black">Program fees 65,000/-  + 18% GST </p>
             <div className="flex space-x-2">
               <button className="flex items-center px-3 py-2 border rounded-md text-white bg-black  hover:text-[#f15b29]">
                

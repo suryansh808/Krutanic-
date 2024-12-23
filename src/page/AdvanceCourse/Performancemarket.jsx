@@ -875,7 +875,7 @@ const Performancemarket = () => {
               isVisible ? "translate-y-0" : "translate-y-full"
             }`}
           >
-            <p className="text-xl font-semibold text-black"> Program fees 60,000/-  + GST</p>
+            <p className="text-xl font-semibold text-black"> Program fees 60,000/-  + 18% GST</p>
             <button className="flex items-center justify-center px-3 py-2 border rounded-md text-white bg-black  hover:text-[#f15b29]">
               <a href="https://rzp.io/rzp/advanced-training-program" target="blank" className="text-[#f15b29] whitespace-nowrap">Enroll Now</a>
             </button>
