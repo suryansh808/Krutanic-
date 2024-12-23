@@ -1,11 +1,10 @@
 
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter, createBrowserRouter } from 'react-router-dom';
 import Header from './Components/Header';
 import HomePage from './page/landing';
 import Signup from './page/Signup';
 import ContactUs from './page/ContactUs';
 import AboutUs from './page/AboutUs';
-import Login from './page/Login';
 import Collabration from './page/Collabration';
 import Career from './page/Career';
 import AdvanceCourses from './page/AdvanceCourses';
@@ -24,19 +23,9 @@ import ProductManagement from "./page/AdvanceCourse/ProductManagement";
 import SmoothScroll from './SmoothScroll';
 import MentorSection from './Components/MentorSection';
 import Performancemarket from './page/AdvanceCourse/Performancemarket';
-
-
-
-
-
-
-
-
-
-
+import Login from './page/Login';
 
 const App = () => {
-
 
   return (
     <div>
@@ -47,17 +36,17 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/Login" element={<Login />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/LoginWithOtp" element={<LoginWithOtp />} />
           <Route path="/Signup" element={<Signup />} />
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/AboutUs" element={<AboutUs/>} />
           <Route path="/Career" element={<Career/>} />
-          <Route path="/Collabration" element={<Collabration/>} />
-          <Route path="/AdvanceCourses" element={<AdvanceCourses/>} />
+          <Route path="/collabration" element={<Collabration/>} />
+          <Route path="/advanceCourses" element={<AdvanceCourses/>} />
           <Route path="/FeeStructure" element={<FeeStructure/>} />
           <Route path="/TalentHunt" element={<TalentHunt/>} />
-          <Route path="/Advance" element={<Advance />} />
+          <Route path="/advance" element={<Advance />} />
           <Route path="/Mentorship" element={<Mentorship />} />
           <Route path="/MentorSection" element={<MentorSection/>} />        
           <Route path="/DataScience" element={<DataScience/>} />
