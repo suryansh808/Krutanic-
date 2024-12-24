@@ -65,7 +65,7 @@ const Header = () => {
         className="text-[20px]  py-2 text-[red] font-bold"
       >
         🎄 Christmas Special Offer! 🎄 50% OFF on Mentorship and Advanced
-        Programs - on December 25th! Don't miss out on this Christmas!
+        Program - on December 25th! Don't miss out on this Christmas!
       </marquee>
        </Link>
       <div className="navbar">
