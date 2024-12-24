@@ -1,5 +1,6 @@
 
 import { Routes, Route, BrowserRouter, createBrowserRouter } from 'react-router-dom';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Header from './Components/Header';
 import HomePage from './page/landing';
 import Signup from './page/Signup';
@@ -59,6 +60,7 @@ const App = () => {
         <Footer/>
       </div>
       </BrowserRouter>
+      <SpeedInsights />
     </div>
  
   );
