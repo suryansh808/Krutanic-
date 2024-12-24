@@ -14,16 +14,10 @@ import { IoShieldCheckmark } from "react-icons/io5";
 import { SiRipple } from "react-icons/si";
 
 
-import img1 from '../assets/developers/affan.jpg'
-import img2 from '../assets/developers/danish.jpg'
-import img3 from '../assets/developers/suryanshsaxena.jpg'
+// import img1 from '../assets/developers/affan.jpg'
+// import img2 from '../assets/developers/danish.jpg'
+// import img3 from '../assets/developers/suryanshsaxena.jpg'
 
-// import gallery1 from '../assets/gallery/002.jpg'
-// import gallery2 from '../assets/gallery/003.jpg'
-// import gallery3 from '../assets/gallery/004.jpg'
-// import gallery4 from '../assets/gallery/005.jpg'
-// import gallery5 from '../assets/gallery/006.jpg'
-// import gallery6 from '../assets/gallery/007.jpg'
 
 
 
@@ -368,34 +362,32 @@ const Career = () => {
       )}
 
       {/* what our emloyes says */}
-      <section className="z-10 relative  px-[10px] py-[60px]">
+      {/* <section className="z-10 relative  px-[10px] py-[60px]">
         <div className="container mx-auto">
           <h1 data-aos="fade-up"   className=" font-bold text-center mb-12 text-orange-700">
-            | What Our Employees Say
+            | What Our Students Say
           </h1>
           <div data-aos="fade-up"   className="grid md:grid-cols-3 lg:gap-8 gap-3">
             {[
               {
-                image:`${img1}`,
+                image: `${img1}`,
                 name: <a href="https://in.linkedin.com/in/mohammedafan" target="blank" >"Mohammed Afan R" </a>,
                 role: "MERN Developer",
-                quote:
-                  "Working at EduTech Innovators has been the most rewarding experience of my career. The culture of innovation and the impact we make on learners' lives is truly inspiring.",
+                quote: "my journey with krutanic Innovators has been an incredible learning experience. The hands-on projects and guidance from experts have truly shaped my skills and passion for development.",
               },
               {
-                image:`${img2}`,
+                image: `${img2}`,
                 name: <a href="https://in.linkedin.com/in/danish-raja-akhtar" target="blank" >"Danish Raja Akhtar"</a>,
                 role: "Web Developer",
-                quote:
-                  "I love the collaborative environment here. Everyone is passionate about our mission, and we're constantly pushing each other to grow and improve.",
+                quote: "Being a student here has been amazing! The mentorship and teamwork have helped me develop both technically and personally. I feel more confident in my skills every day.",
               },
               {
-                image:`${img3}`,
-                name:  <a href="https://in.linkedin.com/in/suryansh-saxena" target="blank" >"Suryansh Saxena" </a>,
+                image: `${img3}`,
+                name: <a href="https://in.linkedin.com/in/suryansh-saxena" target="blank" >"Suryansh Saxena" </a>,
                 role: "MERN Developer",
-                quote:
-                  "The opportunities for professional development are unparalleled. I've learned so much in my time here, and I'm excited to see where we go next as a company.",
+                quote: "I’ve gained so much from krutanic Solution. The exposure to real-world challenges has helped me grow my problem-solving skills and prepared me for a successful career in tech.",
               },
+              
             ].map((testimonial, index) => (
               <div key={index} className="bg-[#080810] rounded-md">
                 <div className="p-6">
@@ -416,7 +408,7 @@ const Career = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
  
          {/* Why Work With Us */}
       <section className="py-[60px] px-[10px] z-10  relative bg-white text-black ">

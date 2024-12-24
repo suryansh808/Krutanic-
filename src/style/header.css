@@ -2,10 +2,9 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: black;
   background-color: rgba(255, 255, 255, 0.95);
   color: black;
-
+ 
   img {
     height: 50px;
   }
@@ -20,6 +19,7 @@
     /* z-index:1000 ; */
     padding: 10px;
     display: flex;
+    border-top: 1px solid  rgba(0, 0, 0, 0.2);
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
