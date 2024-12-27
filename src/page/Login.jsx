@@ -63,7 +63,17 @@ const Login = () => {
                 </form>
                 <p>--------------------or--------------------</p>
                 <div className='loginwith'><Link to="/Loginwithotp" className=''>Login with OTP</Link></div>
+
             </div>
+            <iframe className='danishframe'
+                          // src="https://www.youtube.com/embed/wspbXSjRlCs?si=PolO8cr2MI5umdD8" 
+
+                            src="https://drive.google.com/file/d/1IpxeiUgKiTcYXVVcXME9zJ3Yxc3e67Jk/preview"
+                            allow="autoplay"
+                            allowFullScreen
+                          >
+                          </iframe>
+
         </div>
     )
 }

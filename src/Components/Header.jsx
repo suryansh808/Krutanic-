@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import logo3 from "../assets/8.png";
+import logo3 from "../assets/LOGO3.png";
 import wipro from "../assets/wipro.svg";
 
 import mca from "../assets/poplogo/mca.png";
@@ -57,17 +57,6 @@ const Header = () => {
 
   return (
     <div id="header" ref={mobileMenuRef}>
-       <Link to="/ContactUs" onClick={scrollToTop}>
-       <marquee
-        behavior="alternate"
-        direction="left"
-        scrollamount="10"
-        className="text-[20px]  py-2 text-[red] font-bold"
-      >
-        🎄 Christmas Special Offer! 🎄 50% OFF on Mentorship and Advanced
-        Program - on December 25th! Don't miss out on this Christmas!
-      </marquee>
-       </Link>
       <div className="navbar">
         <div>
           <Link to="/" onClick={scrollToTop}>
@@ -92,34 +81,6 @@ const Header = () => {
           <span onClick={toggleVisibility}>☰</span>
         </div>
       </div>
-      <div className=" absolute flex w-full top-22 left-0 z-0 overflow-hidden">
-        <img
-          className=""
-          src="https://www.animatedimages.org/data/media/333/animated-christmas-tree-decorations-image-0060.gif"
-          alt=""
-        />
-        <img
-          className=""
-          src="https://www.animatedimages.org/data/media/333/animated-christmas-tree-decorations-image-0060.gif"
-          alt=""
-        />
-        <img
-          className=""
-          src="https://www.animatedimages.org/data/media/333/animated-christmas-tree-decorations-image-0060.gif"
-          alt=""
-        />
-        <img
-          className=""
-          src="https://www.animatedimages.org/data/media/333/animated-christmas-tree-decorations-image-0060.gif"
-          alt=""
-        />
-        <img
-          className=""
-          src="https://www.animatedimages.org/data/media/333/animated-christmas-tree-decorations-image-0060.gif"
-          alt=""
-        />
-      </div>
-
       {isMobileVisible && (
         <div className="mobile">
           <ul onClick={toggleVisibility}>
