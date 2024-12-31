@@ -236,12 +236,12 @@ const TalentHunt = () => {
             channels.
           </p>
           <div data-aos="fade-up" className="mt-8 flex justify-center gap-6">
-            <a href="https://www.facebook.com/company/krutanic/" className="text-blue-500 text-4xl hover:text-blue-700">
+            <a href="https://www.facebook.com/people/Krutanic-Solutions/61563953173071/" className="text-blue-500 text-4xl hover:text-blue-700">
               <span className="fa fa-facebook"></span>
             </a>
-            <a href="https://www.youtube.com/krutanic" className="text-red-800 text-4xl hover:text-red-900">
+            {/* <a href="https://www.youtube.com/krutanic" className="text-red-800 text-4xl hover:text-red-900">
               <span className="fa fa-youtube"></span>
-            </a>
+            </a> */}
             <a href="https://www.instagram.com/krutanic" className="text-pink-500 text-4xl hover:text-pink-700">
               <span className="fa fa-instagram"></span>
             </a>

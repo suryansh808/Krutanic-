@@ -19,6 +19,10 @@ import './style/Style.scss'
 import './style/Mentorship.css'
 import './style/FeesStructure.css'
 
+// import './Admin/AdminPanel.css'
+// import './User/UserPanel.css'
+// import "./axiosConfig";
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />

@@ -33,7 +33,7 @@ const Getintouch = () => {
               <button
                 className="bg-[#f15b29] hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded-md"
               >
-                <Link to='https://prettyform.addxt.com/a/form/vf/1FAIpQLScOi3ahP2fNfccTBbgkmJEdACAJbsVMcJ0fSHOrJcdUQ494XQ' target="_blank">Connent With Us</Link>
+                <Link to='https://forms.gle/jWVruCLTDXCXNA2z9' target="_blank">Connent With Us</Link>
               </button>
             </div>
           </div>

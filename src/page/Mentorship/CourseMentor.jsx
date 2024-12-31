@@ -360,7 +360,7 @@ const CourseMentor = () => {
                     className="px-4 py-2 border text-[#f15b29] font-semibold rounded"
                    
                   >
-                    <Link to='https://prettyform.addxt.com/a/form/vf/1FAIpQLScOi3ahP2fNfccTBbgkmJEdACAJbsVMcJ0fSHOrJcdUQ494XQ' target="_blank"> Apply Now</Link>
+                    <Link to='https://forms.gle/LqnwE9NCGFrTuefr9' target="_blank"> Apply Now</Link>
                   </button>
                   <button className="px-4 py-2 border text-[#eee] flex items-center justify-center font-semibold rounded transition">
                     <a href={course.pdf} target="_blank">

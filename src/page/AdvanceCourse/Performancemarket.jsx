@@ -693,7 +693,7 @@ const Performancemarket = () => {
               </button>
               <button className="bg-[#f15b29] hover:bg-[#f15b29] text-white font-semibold py-2 px-6 rounded-md">
                 <Link
-                  to="https://prettyform.addxt.com/a/form/vf/1FAIpQLSc0U5iJFWM3f3oMa6g_5uUtuoiSfOf4CIltW77EH7dpRCuwPg"
+                  to="https://forms.gle/LqnwE9NCGFrTuefr9"
                   target="_blank"
                 >
                   {" "}
