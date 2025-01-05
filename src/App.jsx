@@ -59,6 +59,9 @@ import Performancemarket from "./page/AdvanceCourse/Performancemarket";
 // import Setting from "./User/Setting";
 // import LmsFooter from './User/LmsFooter';
 
+//manager
+import ManagerLogin from "./Manager/ManagerLogin";
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -201,6 +204,9 @@ const AppContent = () => {
         <Route path="/Setting" element={isAuthenticated() ?<Setting /> : <Navigate to="/login" />} />
         <Route path="/Learning" element={isAuthenticated() ?<Learning />: <Navigate to="/login" />} /> */}
         {/* User Panel End */}
+
+        {/* Manager panel  */}
+       <Route path="/ManagerLogin" element={<ManagerLogin/>}/>
       </Routes>
      
       {headerPaths.includes(location.pathname.toLowerCase()) && <Footer />}
